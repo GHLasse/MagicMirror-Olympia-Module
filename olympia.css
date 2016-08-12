@@ -1,0 +1,15 @@
+.olympia td text {
+  text-align: left;
+}
+.olympia td.label {
+  text-align: left;
+}
+
+
+.olympia img.medal {
+  max-height: 20px;
+  height: 20px;
+}
+
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
