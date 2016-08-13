@@ -144,7 +144,7 @@ Module.register('olympia', {
             
             var Place = document.createElement("td");
             Place.className = "small";
-            Place.innerHTML = country.place;
+            Place.innerHTML = country.place + "&nbsp;";
             tr.appendChild(Place);
             
             var CountryName = document.createElement("td");
@@ -164,7 +164,7 @@ Module.register('olympia', {
                 var lblC = document.createElement("text");
                 //var transcode = country.country_name.ToUpperCase();
                 //transcode = transcode.replace(" ","_");
-                lblC.innerHTML = country.country_name; //this.translate(transcode);
+                lblC.innerHTML = "&nbsp;" + country.country_name; //this.translate(transcode);
                 CountryName.appendChild(lblC);
             }
             tr.appendChild(CountryName);
